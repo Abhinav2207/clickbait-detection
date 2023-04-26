@@ -32,5 +32,3 @@ def ConvolutionalNet(vocabulary_size, embedding_dimension, input_length, embeddi
     model.add(Activation("sigmoid"))
 
     return model
-
-
